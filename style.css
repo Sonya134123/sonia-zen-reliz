@@ -1,0 +1,266 @@
+body {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1920px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size:20px;
+}
+header {
+   background-color: #fff6f6;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+   position: fixed;
+   top:0px;
+   left: 0px;
+   width: 98%;
+   display: flex;
+   align-items: center;
+    z-index:1; 
+     height: 20px;
+}
+.logo{
+    display:flex;
+
+}
+.logo p{
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+article{
+    width:500px;
+}
+
+.part{
+    background-image:linear-gradient(to right,#FFD9D2,#FF8585 );
+    text-align: center;
+    padding: 50px 20px;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 220px;
+}
+
+nav a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000; 
+    text-decoration: none;
+}
+nav{
+  display: flex; 
+  justify-content: space-between; 
+  width: 600px;
+}
+
+.part2{
+     display: flex;
+     justify-content: space-between;
+}
+.part h2{
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 49px;
+    text-align: center;
+    color: #521111;
+    mix-blend-mode: darken;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 500px;
+}
+.part a{
+    width:80px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#C63232 ;
+    padding: 38px 18px;
+    border-radius:300px;
+    font-size:15px;
+    text-align: center;
+    transition: 0.3s ease-in;
+}
+
+.part a:hover{
+    background-color: #521111;
+    transition: 0.2s ease-in;
+   
+}
+
+.ledi{
+    position:relative;
+    right:100px;
+    width: 720px;
+}
+
+.room{
+    float:right;
+    width: 500px;
+}
+
+.PART_2 h1{
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 153px;
+    display: flex;
+    align-items: center;
+    color: #810404;
+
+}
+.PART_2 p{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 124%;
+    text-align: justify;
+    color: #000000;
+}
+.popular-dishes{
+    background: rgba(215, 165, 156, 0.6);
+    padding: 30px;
+}
+
+.zagolovok, .menu-categories a{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #b61313;
+    padding: 10px;
+    border-radius:96px;
+    text-decoration: none;
+}
+.main-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-categories{
+    width: 20%;
+}
+
+details a{
+    width: 600px;
+    text-align: center;
+    background-color: #AA0000;
+    border-radius:10px;
+     padding: 10px;
+     transition: 0.2s ease-in;
+}
+
+.menu-categories a:hover{
+    background-color: #521111;
+    transition: 0.2s ease-in;
+}
+
+.dish-grid{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.dish{
+    width:300px;
+    height: 600px;
+    position: relative;
+}
+
+.dish h2{
+    font-style: normal;
+    font-weight: 2000;
+    font-size: 32px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.dish p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.dish div{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 35px;
+    background-color: #F1E7E7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.dish img{
+    width: 300px;
+    height: 300px;
+}
+
+
+div .bag{
+    position:relative;
+    width: 35px;
+    height: 35px;
+}
+
+.cina{
+    position: relative;
+    bottom: 12px;
+    left: 20px;
+    right: 0;
+    font-weight: 1000;
+}
+
+footer{
+
+    background-color: #D87773;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info p::before{
+    content:url("посилання на картинку (телефон)");
+    margin:5px;
+}
+
+.soc{
+    width: 40px;
+    height: 40px;
+    border-radius:10px;
+}
+
+.adress p::before{
+    content:url("посилання на картинку (домік)");
+    margin:5px;
+}
+
+.review img {
+ width: 100px; 
+ height: 100px;
+text-align: left;
+
+}
