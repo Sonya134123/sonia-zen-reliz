@@ -6,7 +6,7 @@ body {
     font-size:20px;
 }
 header {
-   background-color: #fff6f6;
+   background-color: #d88a8a;
     padding: 20px;
     color: rgb(0, 0, 0);
     justify-content: space-between;
@@ -235,7 +235,7 @@ div .bag{
 
 footer{
 
-    background-color: #D87773;
+    background-color: #d88a8a;
     padding: 20px;
     display:flex;
     align-items: center;
@@ -264,3 +264,5 @@ footer{
 text-align: left;
 
 }
+
+
